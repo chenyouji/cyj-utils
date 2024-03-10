@@ -1,4 +1,4 @@
-module my_utils
+module github.com/chenyouji/cyj-utils
 
 go 1.20
 
