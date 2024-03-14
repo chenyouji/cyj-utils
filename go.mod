@@ -5,6 +5,8 @@ go 1.20
 require (
 	github.com/alibaba/sentinel-golang v1.0.4
 	github.com/apache/rocketmq-client-go/v2 v2.1.2
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
+	github.com/dgrijalva/jwt-go/v4 v4.0.0-preview1
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/go-redsync/redsync/v4 v4.12.1
 	github.com/nacos-group/nacos-sdk-go/v2 v2.2.5

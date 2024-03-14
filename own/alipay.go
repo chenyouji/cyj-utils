@@ -12,6 +12,7 @@ type AliPay struct {
 	PrivateKey   string `json:"private_key"`
 	AliPublicKey string `json:"ali_public_key"`
 	NotifyURL    string `json:"notify_url"`
+	ReturnURL    string `json:"return_url"`
 }
 
 func InitAliPay(pay *AliPay) {
